@@ -1,0 +1,27 @@
+# Archivos de sistema
+.DS_Store
+__pycache__/
+*.pyc
+
+# Datos locales
+data/raw/*
+data/processed/*
+!data/.gitkeep
+
+# Entornos
+.env
+venv/
+.venv/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Archivos temporales
+*.log
+*.csv
+*.pkl
+
